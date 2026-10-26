@@ -3,9 +3,9 @@ kaizen_dojo: "2026"
 formato: "Entregable diario G2"
 evidencia: "E1"
 dia: 1
-responsable_registro: "equipo"
-estado: "PENDIENTE"
-fecha: "AAAA-MM-DD"
+responsable_registro: "Michelle"
+estado: "Completo"
+fecha: "2026-10-26"
 revision_docente: "PENDIENTE"
 ---
 
@@ -17,20 +17,20 @@ revision_docente: "PENDIENTE"
 
 | Campo obligatorio | Dato |
 |---|---|
-| Fecha y horario de esta sesión | [AAAA-MM-DD; HH:MM–HH:MM, 180 min] |
-| Nombre / alias del equipo | [kd26-mXX-equipoYY] |
-| Misión / plataforma | [M01 mini-sumo autónomo / M03 seguidor / M04 Tello Python / M05 AMR ROS 2] |
-| Objetivo verificable del robot (una frase) | [Acción + condiciones + éxito] |
-| **Dōjō asignado — campus, edificio y sala/taller exactos** | **[Campus ___ / Edificio ___ / Sala o taller ___ / Nº de laboratorio ___]** |
+| Fecha y horario de esta sesión | [2026-10-26; 11:21–HH:MM, 180 min] |
+| Nombre / alias del equipo | Makuin |
+| Misión / plataforma | [M03 seguidor] |
+| Objetivo verificable del robot (una frase) | [Lograr que siga una lína recta en el menor tiempo posible.] |
+| **Dōjō asignado — campus, edificio y sala/taller exactos** | **[Campus León / Edificio CTA / Sala o taller Laboratorio de electrónica / Nº de laboratorio ___]** |
 | Puesto o zona dentro del dōjō | [Mesa, banco, espacio de vuelo, pista, dohyō o estación] |
 | Horario / reserva confirmada | [Fechas y bloque horario; quien la autorizó] |
 | Responsable del espacio y contacto institucional | [Nombre/cargo y canal institucional, sin publicar teléfonos privados] |
 | Acceso, aforo y ajustes de accesibilidad | [Restricciones de ingreso, capacidad, adecuaciones necesarias] |
 | Salidas, botiquín, extintor y punto de reunión | [Ubicación real validada al llegar] |
 | Zonas segregadas por riesgo | [Vuelo / herramientas / tránsito AMR / ensayo de pista] |
-| Ubicación de materiales y resguardo nocturno | [Gabinete/estante/inventario; responsable] |
+| Ubicación de materiales y resguardo nocturno | [Casillero CCI; César y Michelle] |
 | Plan de sustitución si falla el espacio | [Dōjō alternativo con autorización; no improvisar espacio de vuelo] |
-| Instructor o supervisor presente en la sesión | [@alias / nombre institucional] |
+| Instructor o supervisor presente en la sesión | [@Camilo Duque] |
 
 > ⛔ **No se permite avanzar a pruebas físicas sin dōjō concreto y autorización del responsable.** No inventar salón, número de laboratorio ni recursos que no hayan sido confirmados.
 
@@ -38,10 +38,11 @@ revision_docente: "PENDIENTE"
 
 | Alias GitHub | Rol inicial | Carta y frontera (D/S/E; F1–F4) | Alcances ID (1–3) | Kit personal (archivo) | Necesidad de apoyo o accesibilidad acordada |
 |---|---|---|---|---|---|
-| [@alias-1] | [Integración / documentación / seguridad / pruebas ...] | [D · F1 · D1] | [MS01, MS02] | [`../../participantes/alias/compromiso.md`](../../participantes/_plantilla/compromiso.md) | [Acordar con la persona sin registrar datos sensibles] |
-| [@alias-2] | [...] | [...] | [...] | [enlace] | [...] |
+| [Michelle Corona] | [Diseño] | [Explorar · F4] | [SL01, SL02] | [`../../participantes/alias/compromiso.md`](../../participantes/_plantilla/compromiso.md) | [Acordar con la persona sin registrar datos sensibles] |
+| [César Ortega] | [Calibración motores] | [Explorar . F1] | [SL03,SL05,SL06] | [enlace] | [...] |
+| [Diego Flores] | [Calibración sensores] | [Explorar . F1] | [SL04,SL09,SL10] | [enlace] | [...] |
 
-**Acuerdo de colaboración:** [Cómo se toman decisiones, cómo se resuelven conflictos, apoyos senpai–kōhai, pausas y distribución equitativa de participación.]
+**Acuerdo de colaboración:** [Todas las decisiones son conjuntas, cualquier duda se habla en equipo y contestar los mensajes de whatsapp en un máximo de 3.5 horas.]
 
 ## 2 · Demostración de la plataforma y seguridad (15–35 min)
 
