@@ -17,7 +17,7 @@ revision_docente: "PENDIENTE"
 
 | Campo obligatorio | Dato |
 |---|---|
-| Fecha y horario de esta sesión | [2026-10-26; 11:21–HH:MM, 180 min] |
+| Fecha y horario de esta sesión | [2026-10-26; 11:21–11:58, 180 min] |
 | Nombre / alias del equipo | Makuin |
 | Misión / plataforma | [M03 seguidor] |
 | Objetivo verificable del robot (una frase) | [Lograr que siga una lína recta en el menor tiempo posible.] |
