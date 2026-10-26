@@ -98,11 +98,11 @@ Completar **cada recurso requerido**: estructura, electrónica, actuadores, sens
 
 | ID | Categoría | Material o recurso (especificación exacta: modelo, medida, versión o característica) | Cantidad requerida + unidad | Cantidad confirmada | Fuente/proveedor o dueño | Ubicación física o ruta digital | Responsable | Estado (disponible/reservado/falta) | Alternativa compatible | Día requerido |
 |---|---|---|---|---|---|---|---|---|---|---|
-| MAT-001 | [Robot/plataforma] | [Modelo preciso y compatibilidad] | [1 ud.] | [?] | [laboratorio/equipo] | [armario] | [@alias] | [por confirmar] | [alternativa] | [D1] |
-| MAT-002 | [Mecánica/electrónica/sensor] | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| MAT-003 | [Herramienta/seguridad/medición] | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| MAT-004 | [Software/datos/conectividad] | [SO + versión, ROS/Python/OpenCV o controlador, puerto/red] | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
-| MAT-005 | [Zona de pruebas] | [Pista/dohyō/marcadores/mapa; dimensiones y configuración] | [...] | [...] | [...] | [...] | [...] | [...] | [...] | [...] |
+| MAT-001 | [Robot/plataforma] | [PLA] | [1kg] | [900g] | [Mich] | [Casillero] | [Mich] | [Disponible] | [PLA Camilo] | [D2] |
+| MAT-002 | [Mecánica/electrónica/sensor] | [Motores, QTR] | [2, 1] | [2, 0] | [César y Mich] | [Casillero] | [César] | [Disponible, faltante] | [Motoreductores, QTR individuales] | [D2] |
+| MAT-003 | [Herramienta/seguridad/medición] | [Multimetro,Pinzas, Cable] | [1,1,4m] | [1,1,4m] | [César] | [Casillero] | [César] | [Disponible] | [Herramienta Artemis] | [D2] |
+| MAT-004 | [Software/datos/conectividad] | [ARDUINO IDE] | [1] | [1] | [Mich] | [Casillero] | [Diego] | [Disponible] | [No hay] | [D2] |
+| MAT-005 | [Zona de pruebas] | [Pista] | [1] | [1] | [Camilo] | [Desconocida] | [Diego] | [Reservado] | [Cinta de aislar] | [D3] |
 
 También disponible el archivo [`datos/inventario_materiales.csv`](../../datos/inventario_materiales.csv) para registrar muchos materiales sin agrandar esta tabla.
 
@@ -111,8 +111,8 @@ También disponible el archivo [`datos/inventario_materiales.csv`](../../datos/i
 | Misión | Revisar y especificar (marca/modelo/cantidad reales) |
 |---|---|
 | M01 · Mini-sumo autónomo | Chasis y material para cuñas, ruedas/motores/soportes, driver, controlador y firmware, batería/cargador/fusible, sensores de borde y rival, cableado/conectores, dohyō/rival de referencia, CAD/impresora 3D/herramientas, instrumentos de medición y protocolo de paro. |
-| M03 · Seguidor de línea | Chasis/ruedas/motores, driver, controlador, barra de sensores reflectivos/soportes, batería/cargador, placa y cableado, pista con curvas y superficie definida, software de programación, cinta/regla/cronómetro/instrumentos y paro seguro. |
-| M04 · Tello Python | **Modelo Tello verificado** y baterías suficientes, cargador, computadora y adaptador Wi-Fi, versión Python y SDK compatible, OpenCV si aplica, marcadores visuales impresos, área interior de vuelo demarcada, supervisor/observador, barreras y protocolo de aterrizaje/abortos. |
+|**M03 · Seguidor de línea | Chasis/ruedas/motores, driver, controlador, barra de sensores reflectivos/soportes, batería/cargador, placa y cableado, pista con curvas y superficie definida, software de programación, cinta/regla/cronómetro/instrumentos y paro seguro. ** |
+| M04 · Tello Python | Modelo Tello verificado y baterías suficientes, cargador, computadora y adaptador Wi-Fi, versión Python y SDK compatible, OpenCV si aplica, marcadores visuales impresos, área interior de vuelo demarcada, supervisor/observador, barreras y protocolo de aterrizaje/abortos. |
 | M05 · AMR ROS 2 | Base AMR y baterías/cargador, computador y distribución ROS 2/paquetes, workspace y repositorio base, sensores (p. ej. lidar/odometría), mapa y TF/localización, RViz/Nav2 si aplica, red de comunicación, estaciones/marcadores, área de navegación acordonada, instrumento de medida y paro seguro. |
 
 **Enlaces a fichas técnicas / instrucciones de conexión, fabricación y seguridad:** [URLs o rutas dentro del repositorio.]
@@ -121,9 +121,9 @@ También disponible el archivo [`datos/inventario_materiales.csv`](../../datos/i
 
 | Bloqueante | A qué alcance afecta | Solución prevista / fecha y responsable | Impacto si no se resuelve |
 |---|---|---|---|
-| [material o software aún no validado] | [...] | [...] | [reducir alcance / simulación / replanificar] |
+| [Material faltante] | [Motores y sensores] | [Comprarlo 26/10/2026 Michelle] | [Replanificar] |
 
-**Materiales completos para ejecutar el Día 2:** [Sí / Parcial / No]. **Confirmado por:** [docente y responsable equipo] a [fecha/hora].
+**Materiales completos para ejecutar el Día 2:** [ Parcial ]. **Confirmado por:** [Camilo y César Ortega] a [26/10/2026].
 
 ## 6 · Kata 0 — exploración técnica de arranque (100–160 min)
 
@@ -135,14 +135,14 @@ También disponible el archivo [`datos/inventario_materiales.csv`](../../datos/i
 
 ## 7 · Cierre: contrato técnico y puerta de salida E1 (160–180 min)
 
-- [ ] El objetivo colectivo tiene condición de éxito verificable.
-- [ ] Cada estudiante depositó **su kit Markdown original** en `participantes/<alias>/compromiso.md`.
-- [ ] Cada estudiante completó [E1 personal](../../participantes/_plantilla/dias/E1.md) y definió frontera, evidencia y alcance negociado.
-- [ ] El inventario está **completo** y cada recurso indica cantidad, especificación, disponibilidad y responsable.
-- [ ] Se asignó **dōjō específico** con edificio, salón/taller, horarios, supervisión y autorización.
-- [ ] Se inspeccionaron riesgos, paro y condiciones de seguridad de la plataforma.
-- [ ] Se identificaron dependencias y bloqueos del Día 2; están bajo control o se ajustó la misión.
-- [ ] El profesor aprobó el alcance y la seguridad, o registró observaciones y una alternativa viable.
+- [x] El objetivo colectivo tiene condición de éxito verificable.
+- [x] Cada estudiante depositó **su kit Markdown original** en `participantes/<alias>/compromiso.md`.
+- [x] Cada estudiante completó [E1 personal](../../participantes/_plantilla/dias/E1.md) y definió frontera, evidencia y alcance negociado.
+- [x] El inventario está **completo** y cada recurso indica cantidad, especificación, disponibilidad y responsable.
+- [x] Se asignó **dōjō específico** con edificio, salón/taller, horarios, supervisión y autorización.
+- [x] Se inspeccionaron riesgos, paro y condiciones de seguridad de la plataforma.
+- [x] Se identificaron dependencias y bloqueos del Día 2; están bajo control o se ajustó la misión.
+- [x] El profesor aprobó el alcance y la seguridad, o registró observaciones y una alternativa viable.
 
 **Estado del gate:** [APROBADO / APROBADO CON CONDICIONES / REPLANIFICAR].
 
