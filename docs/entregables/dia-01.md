@@ -3,7 +3,7 @@ kaizen_dojo: "2026"
 formato: "Entregable diario G2"
 evidencia: "E1"
 dia: 1
-responsable_registro: "Michelle"
+responsable_registro: "Equipo"
 estado: "Completo"
 fecha: "2026-10-26"
 revision_docente: "PENDIENTE"
@@ -84,7 +84,7 @@ Se conserva íntegro (incluido el frontmatter y la lista de katas). Los nuevos a
 
 | Alias | Kit enlazado | Alcance principal | Complementos | Katas elegidos o nuevos | Horas mín.–máx. | Evidencia final esperada | Negociación aprobada |
 |---|---|---|---|---|---|---|---|
-| [@alias] | [compromiso.md] | [MS01] | [MS02 / ninguno] | [K1, K3 / propio] | [6–8 h] | [CAD ensamblado + prueba] | [Sí / Pendiente; revisor] |
+| [Michelle] | [compromiso.md] | [MS01] | [MS02 / ninguno] | [K1, K3 / propio] | [6–8 h] | [CAD ensamblado + prueba] | [Sí / Pendiente; revisor] |
 
 **Resultado de negociación grupal:** [Puntos de integración; interfaces entre códigos/firmware/sensores/estructura; prioridad si no hay tiempo.]
 
