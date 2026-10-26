@@ -38,7 +38,7 @@ revision_docente: "PENDIENTE"
 
 | Alias GitHub | Rol inicial | Carta y frontera (D/S/E; F1–F4) | Alcances ID (1–3) | Kit personal (archivo) | Necesidad de apoyo o accesibilidad acordada |
 |---|---|---|---|---|---|
-| [Michelle Corona] | [Diseño] | [Explorar · F4] | [SL01, SL02] | [`../../participantes/alias/compromiso.md`](../../participantes/_plantilla/compromiso.md) | [Acordar con la persona sin registrar datos sensibles] |
+| [Michelle Corona] | [Diseño] | [Explorar · F4] | [SL01, SL02] | [`participantes/_plantilla/Compromiso Michelle`] | [] |
 | [César Ortega] | [Calibración motores] | [Explorar . F1] | [SL03,SL05,SL06] | [enlace] | [...] |
 | [Diego Flores] | [Calibración sensores] | [Explorar . F1] | [SL04,SL09,SL10] | [enlace] | [...] |
 
@@ -84,7 +84,9 @@ Se conserva íntegro (incluido el frontmatter y la lista de katas). Los nuevos a
 
 | Alias | Kit enlazado | Alcance principal | Complementos | Katas elegidos o nuevos | Horas mín.–máx. | Evidencia final esperada | Negociación aprobada |
 |---|---|---|---|---|---|---|---|
-| [Michelle] | [compromiso.md] | [MS01] | [MS02 / ninguno] | [K1, K3 / propio] | [6–8 h] | [CAD ensamblado + prueba] | [Sí / Pendiente; revisor] |
+| [Michelle] | [participantes/_plantilla/Compromiso Michelle] | [SL01] | [SL02] | [K1, K2, K3] | [8-11 h] | [CAD ensamblado + Impresión] | [Sí / Pendiente; revisor] |
+| [César] | [participantes/_plantilla/Compromisos César.md] | [SL03] | [SL05,SL06] | [K1, K2, K3, Propia] | [8-11 h] | [Control de motores + Control P] | [Sí / Pendiente; revisor] |
+| [Diego] | [participantes/_plantilla/compromisos Diego.md] | [SL04] | [SL09,SL10] | [K1, K2, ] | [8-11 h] | [Sensores calibrados + Funcionales al cambio de Luz] | [Sí / Pendiente; revisor] |
 
 **Resultado de negociación grupal:** [Puntos de integración; interfaces entre códigos/firmware/sensores/estructura; prioridad si no hay tiempo.]
 
