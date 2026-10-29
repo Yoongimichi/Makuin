@@ -4,7 +4,7 @@ formato: "Entregable diario G2"
 evidencia: "E3"
 dia: 3
 responsable_registro: "equipo"
-estado: "PENDIENTE"
+  estado: "Completo"
 fecha: "2026-10-28"
 revision_docente: "PENDIENTE"
 ---
@@ -32,16 +32,16 @@ revision_docente: "PENDIENTE"
 
 | Campo | Completar |
 |---|---|
-| Fallo / oportunidad de mejora observada (con evidencia) | [...] |
-| Dónde se presenta y cuántas veces | [contexto + n, no generalizar] |
-| Diagnóstico: causas alternativas que se consideraron | [...] |
-| Hipótesis contrastable: **si cambio X, espero que Y ocurra porque Z** | [...] |
-| Variable independiente que se modifica | [...] |
-| Métrica de resultado con unidad y criterio de mejora | [...] |
-| Variables que se mantendrán iguales | [...] |
-| Ensayos requeridos y forma de muestreo | [5 o n justificado] |
-| Riesgo de sesgo/confusión y cómo se mitigará | [...] |
-| Parada de seguridad / condición de aborto | [...] |
+| Fallo / oportunidad de mejora observada (con evidencia) | [El CAD tuvo errores de diseño] |
+| Dónde se presenta y cuántas veces | [En el diseño CAD, se presentó en dos impresiones siendo la tercera la correcta] |
+| Diagnóstico: causas alternativas que se consideraron | [Los pines soldados en el qtr estaban mal colocados] |
+| Hipótesis contrastable: **si cambio X, espero que Y ocurra porque Z** | [Si cambio el hoyo de los tornillos, espero que el qtr quepa en los diferentes soportes porque se movio la distancia de los centros de los hoyos.] |
+| Variable independiente que se modifica | [Hoyo de los tornillos] |
+| Métrica de resultado con unidad y criterio de mejora | [Los soportes de los qtr quedan derechos sin necesidad de moverlos para que queden alineados.] |
+| Variables que se mantendrán iguales | [Diametro de los hoyos, largo de los soportes.] |
+| Ensayos requeridos y forma de muestreo | [En las 5 distancias posibles, los qtr quedan alineados en todas sin necesidad de doblarlos.] |
+| Riesgo de sesgo/confusión y cómo se mitigará | [A ojo quedarían bien, pero se mitiga usando un nivel para ver que quede recto.] |
+| Parada de seguridad / condición de aborto | [Que se quiebre la línea.] |
 
 ## 3 · Colaboración y cambio técnico Kaizen 1
 
