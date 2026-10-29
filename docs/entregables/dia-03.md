@@ -47,7 +47,9 @@ revision_docente: "PENDIENTE"
 
 | Alias y alcance | Kata asociado (código o propio) | Qué cambió exactamente | Por qué | Código/CAD/commit y responsable de revisión | Validación de interfaz |
 |---|---|---|---|---|---|
-| [...] | [...] | [...] | [...] | [...] | [...] |
+| [Michelle] | [...] | [Nada | [Ha cumplido con su trabajo] | [CAD] | [...] |
+| [César] | [...] | [Nada | [Ha cumplido con su trabajo] | [Motores] | [...] |
+| [Diego] | [...] | [Nada | [Ha cumplido con su trabajo] | [Calibración QTR] | [...] |
 
 **Identificador de versión K1:** [...]. **Otras modificaciones involuntarias o perturbaciones:** [...].
 
