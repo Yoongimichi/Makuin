@@ -48,9 +48,9 @@ revision_docente: "PENDIENTE"
 
 | Subsistema | Entrada | Salida esperada | Responsable | Prueba de integración y observación | Evidencia |
 |---|---|---|---|---|---|
-| Estructura/mecánica | [...] | [...] | [...] | [...] | [...] |
+| Estructura/mecánica | Dimensiones/medidas | Chasis | Michelle | sin probar físicamente, solo CAD | [...] |
 | Energía y accionamiento | [...] | [...] | [...] | [...] | [...] |
-| Sensores/percepción | [...] | [...] | [...] | [...] | [...] |
+| Sensores/percepción | Luz reflejada | valores diferentes entre el blanco y negro | Diego/César | código provisional, pasando los sensores por objetos blancos y negros | [...] |
 | Control/software | [...] | [...] | [...] | [...] | [...] |
 | Integración global | [...] | [...] | [...] | [...] | [...] |
 
@@ -62,19 +62,19 @@ Completar también [`pruebas/protocolo.md`](../../pruebas/protocolo.md) y regist
 
 | Campo de validez experimental | Respuesta obligatoria |
 |---|---|
-| Pregunta y resultado que se quiere medir | [...] |
-| Métrica primaria + unidad (segundos, %, cm, rad, etc.) | [...] |
-| Éxito/fallo (criterio cuantitativo u observable) | [...] |
-| Lugar, configuración, pista/dohyō/estaciones/marcadores | [...] |
-| Configuración del robot: batería, firmware y sensores | [...] |
-| Condiciones controladas: luz, rival, posición de inicio, etc. | [...] |
-| Número de corridas planeadas / ejecutadas | [... / ...; justificar si menos de 5] |
-| Procedimiento reproducible, responsable y seguridad/aborto | [...] |
+| Pregunta y resultado que se quiere medir | Valores que arroja el sensor de sguidor de linea|
+| Métrica primaria + unidad (segundos, %, cm, rad, etc.) | valor arrojado por el serial |
+| Éxito/fallo (criterio cuantitativo u observable) | Los valores son considerablemente distintos |
+| Lugar, configuración, pista/dohyō/estaciones/marcadores | laboratorio de electronica|
+| Configuración del robot: batería, firmware y sensores | unicamente sensores seguidores de linea|
+| Condiciones controladas: luz, rival, posición de inicio, etc. | Luz ambiental debido a los focos, usar siempre los mismos dos objetos de distintos color|
+| Número de corridas planeadas / ejecutadas | [pleaneadas 3 sin cambios, ejecutadas 1, se logro que se leyera al primer inteot, los siguientes solo se trataron de ajustar los valores|
+| Procedimiento reproducible, responsable y seguridad/aborto | subir la programación, pasar el objeto negro enfrente del sensor, luego el blanco y fin, César/Diego|
 | Datos sin procesar y video/foto corta | [enlace a CSV y evidencias externas de acceso controlado] |
 
 | Ensayo | Condición inicial | Valor (+ unidad) | Éxito/fallo | Observación relevante / incidencia |
 |---:|---|---|---|---|
-| 1 | [...] | [...] | [...] | [...] |
+| 1 | sensor lee colores blanco y negro | blanco alrededor de 900, negro alrededor 1000 | Éxito | Los valores de lectura están al revés a lo usual |
 | 2 | [...] | [...] | [...] | [...] |
 | 3 | [...] | [...] | [...] | [...] |
 | 4 | [...] | [...] | [...] | [...] |
@@ -86,8 +86,9 @@ Completar también [`pruebas/protocolo.md`](../../pruebas/protocolo.md) y regist
 
 | Fallo o cuello de botella observado | Hipótesis preliminar | Prioridad | Responsable | Material / apoyo necesario |
 |---|---|---|---|---|
-| [...] | [...] | [...] | [...] | [...] |
-
+| falta de chasis impreso| Se imprime mañana| Alta | Michelle | impresora/PLA/Tiempo |
+| falta de mejor código para sensores  | Se investiga cómo mejorar el código | Media | Diego |Conocimiento/QTR/ARDUINO/Tiempo |
+| falta de pruebas de motores | Con el chaisis se proueba correctamente los motores| Baja| César | Motores/Pruebas |
 - [ ] Hay prototipo V1, subsistema funcional verificable o fallo reproducible con condiciones registradas.
 - [ ] Existen archivos fuente o evidencia técnica enlazada, además de videos de uso controlado cuando correspondan.
 - [ ] Hay protocolo reproducible y valores basales con unidad o justificación de lo que no pudo medirse.
