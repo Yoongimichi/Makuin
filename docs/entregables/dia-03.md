@@ -5,7 +5,7 @@ evidencia: "E3"
 dia: 3
 responsable_registro: "equipo"
 estado: "PENDIENTE"
-fecha: "AAAA-MM-DD"
+fecha: "2026-10-28"
 revision_docente: "PENDIENTE"
 ---
 
@@ -15,7 +15,7 @@ revision_docente: "PENDIENTE"
 
 ## 0 · Contexto de investigación de hoy
 
-**Fecha/equipo/misión:** [...] · **Dōjō exacto:** [...] · **Versión de partida:** [commit/etiqueta V1] · **Protocolo E2:** [enlace].
+**Fecha/equipo/misión:** 28-10-2026 · **Dōjō exacto:** laboratorio de electrónica · **Versión de partida:** [commit/etiqueta V1] · **Protocolo E2:** [enlace].
 
 ## 1 · Ruta del Día 3 (180 min)
 
