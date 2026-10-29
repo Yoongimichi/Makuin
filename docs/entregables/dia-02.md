@@ -5,7 +5,7 @@ evidencia: "E2"
 dia: 2
 responsable_registro: "equipo"
 estado: "PENDIENTE"
-fecha: "AAAA-MM-DD"
+fecha: "2026-10-27"
 revision_docente: "PENDIENTE"
 ---
 
@@ -17,12 +17,12 @@ revision_docente: "PENDIENTE"
 
 | Campo | Dato |
 |---|---|
-| Fecha, equipo, misión y plataforma | [...] |
-| Dōjō real y mesa/zona utilizada | [edificio, sala/taller y puesto] |
-| Estado del gate E1 / cambios desde D1 | [aprobado / condiciones + acuerdo] |
+| Fecha, equipo, misión y plataforma | 2026-10-27, Makuin, M03 seguidor |
+| Dōjō real y mesa/zona utilizada | laboratorio de electrónica |
+| Estado del gate E1 / cambios desde D1 | Pendiente la revisión de Camilo, decidimos continuar con lo ya pensado |
 | Kit por integrante / compromisos modificados | [enlaces relativos y motivo de modificación] |
-| Materiales recibidos y pendientes | [IDs MAT del inventario; responsable] |
-| Objetivo técnico del Día 2 | [qué versión funcional mínima V1 se probará hoy] |
+| Materiales recibidos y pendientes | PLA, Motores, QTR, Multímetro, Pinzas, cable, Arduino IDE, Pista|
+| Objetivo técnico del Día 2 | Probar sensores, motores y tener el Cad del seguidor de línea listo |
 
 ## 1 · Ruta de las actividades de hoy (180 min)
 
@@ -41,8 +41,9 @@ revision_docente: "PENDIENTE"
 
 | Alias | Alcance | Kata seleccionado / nuevo | Acción técnica ejecutada | Archivo, commit o plano | Estado (pendiente/probado/bloqueado) | Dependencia de otro integrante |
 |---|---|---|---|---|---|---|
-| [@alias] | [MS03] | [Kata 2] | [integré X con Y] | [`../../codigo/...`] | [...] | [sensor/calibración de @...] |
-
+| Michelle Corona | [SL01+02] | [Kata 1,2,3] | Se realizó la primera versión del CAD | [`../../codigo/...`] | pendiente a imprimir/mejorar | nada |
+| César Ortega | [SL03+05+06] | [Kata 1,2,3+propia] | Se consiguieron los motores | [`../../codigo/...`] | [...] | Dependencia de tener la carcasa para poder probar de manera correcta los motores|
+| Diego Flores | [SL04+09,10] | [Kata 1,2] | Se obtuvo el QTR y se probó que funcionara | [`../../codigo/...`] | [probado | nada|
 ## 3 · Estado de integración V1
 
 | Subsistema | Entrada | Salida esperada | Responsable | Prueba de integración y observación | Evidencia |
