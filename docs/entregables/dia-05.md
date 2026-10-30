@@ -4,8 +4,8 @@ formato: "Entregable diario G2"
 evidencia: "E5"
 dia: 5
 responsable_registro: "equipo"
-estado: "PENDIENTE"
-fecha: "AAAA-MM-DD"
+estado: "COMPLETO"
+fecha: "2026-10-30"
 revision_docente: "PENDIENTE"
 ---
 
@@ -37,11 +37,11 @@ revision_docente: "PENDIENTE"
 
 ## 2 · Checklist de seguridad antes de operar
 
-- [ ] Infraestructura, supervisor y operación autorizados.
-- [ ] Batería/cables/driver/sensores y fijaciones revisados.
-- [ ] Paro y contingencia practicados; nadie dentro de la zona de riesgo.
-- [ ] Configuración y versión final identificables.
-- [ ] Ruta de evacuación o emergencia, accesibilidad y permisos de captura de imagen comprobados.
+- [ x] Infraestructura, supervisor y operación autorizados.
+- [ x] Batería/cables/driver/sensores y fijaciones revisados.
+- [ x] Paro y contingencia practicados; nadie dentro de la zona de riesgo.
+- [ x] Configuración y versión final identificables.
+- [ x] Ruta de evacuación o emergencia, accesibilidad y permisos de captura de imagen comprobados.
 
 **Observación o NO-GO de seguridad:** [...]. **Autoriza:** [responsable y fecha].
 
@@ -49,11 +49,9 @@ revision_docente: "PENDIENTE"
 
 | Intento | Versión/condiciones | Métrica y unidad | Resultado/éxito-fallo | Incidente o razón de fallo | Evidencia |
 |---:|---|---|---|---|---|
-| 1 | [...] | [...] | [...] | [...] | [...] |
-| 2 | [...] | [...] | [...] | [...] | [...] |
-| 3 | [...] | [...] | [...] | [...] | [...] |
-| 4 | [...] | [...] | [...] | [...] | [...] |
-| 5 | [...] | [...] | [...] | [...] | [...] |
+| 1 | [QTR hasta adelante] | [Completo o no completo la pista] | [Fallo] | [Burbujas de aire y qtr no bien calibrados] | [https://youtube.com/shorts/_S7hK4h8x44?si=tSVU3hlAIfJZArF6] |
+| 2 | [QTR atrás] | [Completo o no completo la pista] | [Éxito parcial] | [Piso irregular y sucio] | [https://youtu.be/3t42Zs72zTM?si=Xn2wosNcQNf50VoE] |
+| 3 | [QTR hasta atrás] | [Completo o no completo la pista] | [Éxito] | [Nada] | [https://youtu.be/QT4kEOcveZA?si=MU8mzwDSFfQbF2sD] |
 
 **Procedimiento y datos crudos:** [enlace protocolo + CSV]. **Resumen de resultados:** [n, éxitos/fracaso, estadístico descriptivo si procede]. **Limitación:** [...].
 
