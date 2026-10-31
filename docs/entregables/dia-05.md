@@ -61,7 +61,15 @@ revision_docente: "PENDIENTE"
 
 | Alias | Alcance(s) original(es) | Qué aportó realmente / enlace a evidencia | Antes no podía... | Ahora puedo... | Demostración de capacidad ante otro | Feedback de par o profesor |
 |---|---|---|---|---|---|---|
-| [...] | [...] | [...] | [...] | [...] | [...] | [...] |
+| [Michelle] | [SL01] | [Diseñar y fabricar chasis de seguidor] | [Diseñar un seguidor en CAD] | [Diseñar un seguidor en línea modular en CAD] | [Fátima comprobó mis conocimientos] | [...] |
+| [Michelle] | [SL02] | [Diseñar soporte ajustable de sensores reflectivos] | [Se diseñó un soporte para los QTR-8 de manera que se ajuste la distancia a la placa] | [Diseñar un seguidor en línea modular en CAD] | [Fátima comprobó mis conocimientos] | [...] |
+| [César] | [SL03] | [Integrar control diferencial de motores] | [Aplicar el control pwm a los motores] | [Aplicar el control pwm a los motores] | [Jhony comprobó mis conocimientos] | [...] |
+| [César] | [SL05] | [Estimar posición lateral de línea] | [Aplicar bibliotecas para estimar la posición] | [Aplicar bibliotecas para estimar la posición] | [Jhony comprobó mis conocimientos] | [...] |
+| [César] | [SL06] | [Programar seguidor proporcional básico] | [Corregir mediante control PID la trayectoria de la ruta] | [Corregir mediante control PID la trayectoria de la ruta] | [Jhony comprobó mis conocimientos] | [...] |
+| [Diego] | [SL04] | [Calibrar sensores para blanco y negro] | [Calibrar los QTR para que funcionen a blanco y negro] | [Calibrar los QTR para que funcionen a blanco y negro] | [El arduino comprobó la calibración] | [...] |
+| [Diego] | [SL09] | [Recuperar la línea tras pérdida] | [Mediante la programación implementar algo que guíe de nuevo al robot a la pista] | [Que el robot recupere la pista] | [César comprobó mis conocimientos] | [...] |
+| [Diego] | [SL10] | [Robustecer sensórica ante iluminación cambiante] | [Calibrar correctamente los QTR a pesar de la iluminación] | [Calibrar correctamente los QTR sin importar la calibración al levantarlos un poco] | [César comprobó mis conocimientos] | [...] |
+
 
 **Ver portafolios individuales:** [enlaces a `participantes/<alias>/dias/E5.md`]. No basta con observar que el robot gana o funciona para validar fronteras individuales.
 
