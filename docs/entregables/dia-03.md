@@ -59,29 +59,28 @@ revision_docente: "PENDIENTE"
 
 | Prueba emparejada o bloque | Condición/escenario idéntico | V1, valor + unidad | K1, valor + unidad | Cambio / resultado | Incidencia o desviación |
 |---:|---|---|---|---|---|
-| 1 | [...] | [...] | [...] | [...] | [...] |
-| 2 | [...] | [...] | [...] | [...] | [...] |
-| 3 | [...] | [...] | [...] | [...] | [...] |
-| 4 | [...] | [...] | [...] | [...] | [...] |
-| 5 | [...] | [...] | [...] | [...] | [...] |
+| 1 | [Motores a ras de impresión] | [Que los motores queden a presión] | [K2-Modelar y ajustar soporte de motores y frente para sensores] | [La cota quedo mal y los motores quedan grandes] | [Modificar el CAD para volver a imprimir] |
+| 2 | [QTR ajustados con tornillos] | [La impresión queda justa a los QTR] | [K2- Modelar y ajustar soporte de motores y frente para sensores] | [Los motores quedaron a presión pero los hoyos de los tornillos quedaron desviados] | [Modificar el CAD para volver a imprimir] |
+| 3 | [QTR ajustados con tornillos] | [La impresión queda justa a los QTR] | [K2-Modelar y ajustar soporte de motores y frente para sensores] | [Todo quedo a la perfección] | [Nada] |
 
-**N válido V1 / K1:** [... / ...]. **Resumen, variabilidad y tasa de éxito:** [...]. **Incertidumbres/limitaciones:** [...].
+
+**N válido V1 / K1:** [3]. **Resumen, variabilidad y tasa de éxito:** [Logramos que funcionara al tercer intento]. **Incertidumbres/limitaciones:** [No teniamos una pieza en CAD de los QTR para veridicar las medidas.].
 
 ## 5 · Interpretación y decisión
 
-- **¿La evidencia respalda, contradice o no permite decidir la hipótesis?** [...]
-- **Si no hubo mejora, qué aprendimos:** [...]
-- **¿Qué riesgo o compromiso generó el cambio?** [...]
-- **Decisión:** [conservar K1 / revertir / revisar / recolectar más datos], con razón: [...]
-- **Siguiente pregunta para Kaizen 2:** [...]
+- **¿La evidencia respalda, contradice o no permite decidir la hipótesis?** [La evidencia dice que el diseño permitió dominar SL01 y SL02]
+- **Si no hubo mejora, qué aprendimos:** [Aprendimos a medir bien con el vernier]
+- **¿Qué riesgo o compromiso generó el cambio?** [Que gastamos más material]
+- **Decisión:** [conservar K1 ], con razón: [Ya funciono]
+- **Siguiente pregunta para Kaizen 2:** [¿podremos ajustar el seguidor con la programación?]
 
 ## 6 · Puerta de salida E3
 
-- [ ] V1 y K1 tienen identificadores o referencias inequívocas.
-- [ ] La hipótesis está conectada con una medida y un problema diagnosticado.
-- [ ] Se documentó una modificación técnica y su responsable.
-- [ ] Ensayos y resultados mantienen condiciones comparables o exponen diferencias explícitamente.
-- [ ] La conclusión es honesta, incluso si el resultado es negativo.
-- [ ] Cada estudiante registró su [E3 personal](../../participantes/_plantilla/dias/E3.md).
+- [x] V1 y K1 tienen identificadores o referencias inequívocas.
+- [x] La hipótesis está conectada con una medida y un problema diagnosticado.
+- [x] Se documentó una modificación técnica y su responsable.
+- [x] Ensayos y resultados mantienen condiciones comparables o exponen diferencias explícitamente.
+- [x] La conclusión es honesta, incluso si el resultado es negativo.
+- [x] Cada estudiante registró su [E3 personal](../../participantes/_plantilla/dias/E3.md).
 
-**Gate E3:** [APROBADO / CONDICIONADO]. **Revisor:** [...]. **Enlace a PR/commit:** [...].
+**Gate E3:** [APROBADO]. **Revisor:** [...]. **Enlace a PR/commit:** [...].
