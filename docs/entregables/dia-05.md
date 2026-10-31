@@ -77,31 +77,31 @@ revision_docente: "PENDIENTE"
 
 | Pregunta para validar la experiencia | Respuesta basada en evidencia (no solo opinión) |
 |---|---|
-| ¿Qué elecciones del catálogo C2 tuvieron sentido para diferentes niveles de entrada? | [...] |
-| ¿Qué katas fueron útiles, redundantes o faltaron? | [...] |
-| ¿Los materiales y el dōjō habilitaron el trabajo sin exclusiones? | [...] |
-| ¿Hubo evidencia de dos ciclos de mejora técnica? | [...] |
-| ¿Qué se debería rediseñar para la próxima iteración? | [...] |
-| ¿La experiencia protegió confianza, autonomía, pertenencia y seguridad? | [...] |
+| ¿Qué elecciones del catálogo C2 tuvieron sentido para diferentes niveles de entrada? | [El diseño de soportes ajustables de sensores fue un acierto al momento de probar el seguidor de línea en la pista, ya que al mover la posición de los QTR pudimos verificar como es que funciona el robot con esa distancia.] |
+| ¿Qué katas fueron útiles, redundantes o faltaron? | [Modelar y ajustar soportes de motores y frente para sensores fue una kata útil, el ensamblar el chasis fue redundante y el comparar vueltas válidas fue algo muy útil] |
+| ¿Los materiales y el dōjō habilitaron el trabajo sin exclusiones? | [Sí] |
+| ¿Hubo evidencia de dos ciclos de mejora técnica? | [Sí, al modificar la posición de los QTR mejoró considerablemente para completar la pista.] |
+| ¿Qué se debería rediseñar para la próxima iteración? | [Acercar más los QTR a la base] |
+| ¿La experiencia protegió confianza, autonomía, pertenencia y seguridad? | [Sí] |
 
 **Feedback externo o de otra pareja/equipo:** [quién por alias, pregunta, respuesta y fuente].
 
 ## 6 · Cierre, transferencia y archivo
 
-- **Estado técnico final:** [funcional / parcialmente funcional / no funcional; razones; no maquillar resultado].
-- **Logros colectivos y límites reales:** [...].
-- **Qué reutilizaría una generación futura:** [componentes documentados, código, instrucciones, recomendaciones].
-- **Qué falta antes de competencia externa (si la hubiera):** [...].
-- **Inventario devuelto/resguardado, responsable y lugar exacto:** [...].
-- **Archivo de evidencias, permisos de acceso y retención:** [enlaces institucionales aprobados].
-- **Próximo experimento o kata que se exploraría:** [...].
+- **Estado técnico final:** [parcialmente funcional].
+- **Logros colectivos y límites reales:** [Logramos construir un seguidor de línea con un desempeñó ideal, logramos que acabará la pista en más de 4 ocasiones, nos queda a mejorar el diseño y futuramente agregarle una turbina para mayor adherencia al suelo.].
+- **Qué reutilizaría una generación futura:** [Diseño CAD, código, electrónica.].
+- **Qué falta antes de competencia externa (si la hubiera):** [Más velocidad para terminar más rápido la pista.].
+- **Inventario devuelto/resguardado, responsable y lugar exacto:** [Todo resguardado en el casillero de Michelle].
+- **Archivo de evidencias, permisos de acceso y retención:** [...].
+- **Próximo experimento o kata que se exploraría:** [Control PID completo].
 
 ### Gate E5
 
-- [ ] Demostración registrada honestamente, exitosa o fallida.
-- [ ] V1, K1, K2 y Vn tienen enlaces y registros coherentes.
-- [ ] Cada estudiante completó [E5 personal](../../participantes/_plantilla/dias/E5.md) y defendió su frontera.
-- [ ] Se registraron observaciones para la fase de validación posterior del Design Thinking.
-- [ ] Se resguardaron/entregaron materiales y accesos sin exponer datos privados.
+- [x] Demostración registrada honestamente, exitosa o fallida.
+- [x] V1, K1, K2 y Vn tienen enlaces y registros coherentes.
+- [x] Cada estudiante completó [E5 personal](../../participantes/_plantilla/dias/E5.md) y defendió su frontera.
+- [x] Se registraron observaciones para la fase de validación posterior del Design Thinking.
+- [x] Se resguardaron/entregaron materiales y accesos sin exponer datos privados.
 
 **Revisión final docente:** [por revisar / validado / validado con observaciones]. **Fecha:** [...]. **Firma/alias:** [...].
