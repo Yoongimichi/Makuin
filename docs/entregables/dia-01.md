@@ -150,4 +150,6 @@ También disponible el archivo [`datos/inventario_materiales.csv`](../../datos/i
 
 **Revisor docente:** [ ... ] · **Enlace a commit/PR:** [ ... ]
 
+LINK A SCAMPER CON IA: https://canva.link/j3opp416npmtv6s
+
 **Criterio mínimo E1:** existe un contrato de misión y frontera individual, hay evidencia del punto de partida, un inventario verificable y un espacio de trabajo autorizado. La ausencia de algún material crítico NO debe esconderse.
