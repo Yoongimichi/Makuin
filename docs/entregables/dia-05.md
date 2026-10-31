@@ -17,8 +17,8 @@ revision_docente: "PENDIENTE"
 
 | Campo | Valor |
 |---|---|
-| Fecha / equipo / misión y plataforma | [...] |
-| Dōjō o espacio exacto, bloque horario y supervisor | [...] |
+| Fecha / equipo / misión y plataforma | 30-10-2026 / Makuin / M03 Seguidor de línea |
+| Dōjō o espacio exacto, bloque horario y supervisor | Laboratorio de electrónica |
 | Modalidad real | [desafío interno / exhibición / competencia confirmada] |
 | ¿Participación en Robolympics posterior? | [planeada / no confirmada / confirmada por fuente] |
 | Versión final congelada y enlace al código/CAD | [K2/Vn, commit, fecha y responsable] |
