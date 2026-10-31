@@ -39,8 +39,8 @@ revision_docente: "PENDIENTE"
 | Alias GitHub | Rol inicial | Carta y frontera (D/S/E; F1–F4) | Alcances ID (1–3) | Kit personal (archivo) | Necesidad de apoyo o accesibilidad acordada |
 |---|---|---|---|---|---|
 | [Michelle Corona] | [Diseño] | [Explorar · F4] | [SL01, SL02] | [`participantes/_plantilla/Compromiso Michelle`] | [] |
-| [César Ortega] | [Calibración motores] | [Explorar . F1] | [SL03,SL05,SL06] | [enlace] | [...] |
-| [Diego Flores] | [Calibración sensores] | [Explorar . F1] | [SL04,SL09,SL10] | [enlace] | [...] |
+| [César Ortega] | [Calibración motores] | [Explorar . F1] | [SL03,SL05,SL06] | `participantes/_plantilla/Compromisos César.md`| [...] |
+| [Diego Flores] | [Calibración sensores] | [Explorar . F1] | [SL04,SL09,SL10] | `participantes/_plantilla/compromisos Diego.md` | [...] |
 
 **Acuerdo de colaboración:** [Todas las decisiones son conjuntas, cualquier duda se habla en equipo y contestar los mensajes de whatsapp en un máximo de 3.5 horas.]
 
